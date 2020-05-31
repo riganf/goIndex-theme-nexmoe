@@ -8,7 +8,8 @@
 .nexmoe-nav {
     height: 56px;
     width: 100%;
-    background-color: #fff;
+    background-color: #232427;
+    color: #FFFFFF;
     box-shadow: 0 2px 6px rgba(0,0,0,.04);
 }
 .navSize{
@@ -111,9 +112,8 @@ opacity: 1; /*结尾状态 透明度为1*/
 	margin: 20px -8px 0 !important;
     padding: 15px !important;
     border-radius: 5px;
-    -webkit-box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);
-    box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);
-    background-color: #fff;
+    -webkit-box-shadow: 0 0.2em 1em rgba(35, 36, 39);
+    box-shadow: 0 0.2em 1em rgba(35, 36, 39);
 }
 
 /*路径导航*/
@@ -130,8 +130,8 @@ opacity: 1; /*结尾状态 透明度为1*/
 
 .mdui-toolbar > a:last-child {
 	opacity: 1;
-    background-color: #1e89f2;
-    color: #ffff;
+    background-color: #232427;
+    color: #FFFFFF;
 }
 
 .mdui-toolbar > a {
@@ -196,13 +196,18 @@ opacity: 1; /*结尾状态 透明度为1*/
     margin: 0 !important;
     border-radius: 5px;
     padding: 0 10px 0 5px !important;
-    border: 1px solid #eee;
+    border: 1px solid rgba(228, 228, 228, 0.2);
     margin-bottom: 10px !important;
+}
+
+.mdui-list-item:hover {
+    background-color: #232427;
+    color: #FFFFFF;
 }
 
 .mdui-text-color-blue-grey-500 {
     margin-top: 20px;
-    color: #000000 !important;
+    color: ##E4E4E4 !important;
 }
 
 .mdui-typo {
@@ -220,6 +225,6 @@ opacity: 1; /*结尾状态 透明度为1*/
 }
 
 .nav-style > a:hover {
-    background-color: #1e89f2;
+    background-color: #232427;
     color: #ffff;
 }
