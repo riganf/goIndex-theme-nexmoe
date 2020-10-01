@@ -5501,11 +5501,13 @@ document.write(
 );
 if (UI.theme == "material-dark") {
   document.write(
-    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/material-dark.css">'
+    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/material-dark.css">
+    <meta name="theme-color" content="#121212">`
   );
 } else if (UI.theme == "dark") {
   document.write(
-    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/dark.css">'
+    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/dark.css">
+    <meta name="theme-color" content="#0D0D0D">`
   );
 }
 function init() {
