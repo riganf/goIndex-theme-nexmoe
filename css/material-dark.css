@@ -1,0 +1,63 @@
+body {
+    background-color: #121212;
+    color: #E4E4E4;
+}
+
+.nexmoe-nav {
+    background-color: #1E1E1E;
+}
+
+.avatar {
+    border: 4px solid rgba(228, 228, 228, 0.1);
+}
+
+.nexmoe-item {
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    border: 1px solid #222;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 10px 30px !important;
+}
+
+.mdui-toolbar {
+    border: 1px solid #222;
+}
+
+.mdui-toolbar > a {
+    border: 1px solid rgba(228, 228, 228, 0.1);
+}
+
+.mdui-list-item.mdui-ripple{
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(228, 228, 228, 0.1);
+}
+
+.mdui-textfield-input {
+    color: #E4E4E4;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mdui-textfield-input:not([disabled]):hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-style > a:hover {
+    background-color: rgba(0,0,0,.08);
+}
+
+.mdui-textfield-label{
+    color: #E4E4E4;
+}
+
+.mdui-select-menu {
+    background-color: #161616;
+    box-shadow: none;
+}
+
+.mdui-select-menu-item:hover {
+    background-color: #161616;
+    box-shadow: none;
+}
