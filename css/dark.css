@@ -66,6 +66,6 @@ body {
     box-shadow: none;
 }
 
-select {
+select option {
     color: #E4E4E4;
 }
