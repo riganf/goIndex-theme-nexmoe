@@ -62,6 +62,6 @@ body {
     box-shadow: none;
 }
 
-.mdui-select-menu-item:a {
+.folder:a {
     color: #E4E4E4;
 }
