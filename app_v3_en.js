@@ -5605,7 +5605,7 @@ function nav(path) {
         if (n == "") {
           break;
         }
-        html += `<i class="mdui-icon material-icons mdui-icon-dark folder" style="margin:0;">chevron_right</i><a class="folder" style="color: #E4E4E4;" href="/${cur}:${p}">${n}</a>`;
+        html += `<i class="mdui-icon material-icons mdui-icon-dark folder" style="margin:0;">chevron_right</i><a class="folder" style="text-color: #E4E4E4;" href="/${cur}:${p}">${n}</a>`;
       }
     }
   }
