@@ -5479,34 +5479,34 @@
   );
 });
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/mdui_v2.min.css" asyc>'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/css/mdui_v2.min.css" asyc>'
 );
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/nexmoe_v2.min.css" async>'
+  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/css/nexmoe_v2.min.css" async>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/js/mdui.min.js"></script async>'
+  '<script src="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/js/mdui.min.js"></script async>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/js/flv.min.js"></script async>'
+  '<script src="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/js/flv.min.js"></script async>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/js/DPlayer.min.js"></script async>'
+  '<script src="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/js/DPlayer.min.js"></script async>'
 );
 document.write(
-  '<script src="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/js/markdown-it.min.js"></script async>'
+  '<script src="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/js/markdown-it.min.js"></script async>'
 );
 document.write(
   "<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1}@media screen and (max-width:980px){.mdui-list-item .mdui-text-right{display:none}.mdui-container{width:100%!important;margin:0}}</style>"
 );
 if (UI.theme == "material-dark") {
   document.write(
-    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/material-dark.min.css" async>
+    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/css/material-dark.min.css" async>
     <meta name="theme-color" content="#121212">`
   );
 } else if (UI.theme == "dark") {
   document.write(
-    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Genos2000/goIndex-theme-nexmoe@master/css/dark.min.css" async>
+    `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/riganf/goIndex-theme-nexmoe@master/css/dark.min.css" async>
     <meta name="theme-color" content="#0D0D0D">`
   );
 }
@@ -5523,8 +5523,8 @@ function init() {
         UI.disable_navicon == true ? "none" : "block"
       }">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="t.me/botusername" target="_blank">Bot Link</a></li>
-					<li class="menu_li"><a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank">Github</a></li>
+					<li class="menu_li"><a href="https://t.me/Lent3Ra" target="_blank">My Telegram</a></li>
+					<li class="menu_li"><a href="https://github.com/riganf/goIndex-theme-nexmoe" target="_blank">Github</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
 			</div>
@@ -6313,12 +6313,12 @@ function utc2beijing(utc_datetime) {
   );
 }
 function formatFileSize(bytes) {
-  if (bytes >= 1000000000) {
-    bytes = (bytes / 1000000000).toFixed(2) + " GB";
-  } else if (bytes >= 1000000) {
-    bytes = (bytes / 1000000).toFixed(2) + " MB";
-  } else if (bytes >= 1000) {
-    bytes = (bytes / 1000).toFixed(2) + " KB";
+  if (bytes >= 1073741824) {
+    bytes = (bytes / 1073741824).toFixed(2) + " GB";
+  } else if (bytes >= 1048576) {
+    bytes = (bytes / 1048576).toFixed(2) + " MB";
+  } else if (bytes >= 1024) {
+    bytes = (bytes / 1024).toFixed(2) + " KB";
   } else if (bytes > 1) {
     bytes = bytes + " bytes";
   } else if (bytes == 1) {
