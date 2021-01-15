@@ -5585,7 +5585,7 @@ function nav(path) {
   var html = "";
   var cur = window.current_drive_order || 0;
   var names = window.drive_names;
-  html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;">`;
+  html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;color: #E4E4E4;">`;
   names.forEach((name, idx) => {
     html += `<option value="/${idx}:/"  ${
       idx === cur ? 'selected="selected"' : ""
@@ -5605,7 +5605,7 @@ function nav(path) {
         if (n == "") {
           break;
         }
-        html += `<i class="mdui-icon material-icons mdui-icon-dark folder" style="margin:0;">chevron_right</i><a class="folder" style="text-color: #E4E4E4;" href="/${cur}:${p}">${n}</a>`;
+        html += `<i class="mdui-icon material-icons mdui-icon-dark folder" style="margin:0;">chevron_right</i><a class="folder" href="/${cur}:${p}">${n}</a>`;
       }
     }
   }
