@@ -61,3 +61,7 @@ body {
     background-color: #161616;
     box-shadow: none;
 }
+
+.mdui-select-menu-item:a {
+    color: #E4E4E4;
+}
