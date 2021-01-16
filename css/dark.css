@@ -59,11 +59,6 @@ body {
 .mdui-select-menu {
     background-color: #161616;
     box-shadow: none;
-    color: #E4E4E4;
-}
-
-.mdui-select-menu-item {
-    color: #E4E4E4;
 }
 
 .mdui-select-menu-item:hover {
