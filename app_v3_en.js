@@ -5585,7 +5585,7 @@ function nav(path) {
   var html = "";
   var cur = window.current_drive_order || 0;
   var names = window.drive_names;
-  html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;color: #E4E4E4;">`;
+  html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;">`;
   names.forEach((name, idx) => {
     html += `<option value="/${idx}:/"  ${
       idx === cur ? 'selected="selected"' : ""
