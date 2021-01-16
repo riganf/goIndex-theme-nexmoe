@@ -6100,7 +6100,7 @@ function file_code(path) {
       code_type = type[ext];
     }
     var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/ambiance");
+    editor.setTheme("ace/theme/clouds");
     editor.setFontSize(18);
     editor.session.setMode("ace/mode/" + code_type);
     editor.setOptions({
